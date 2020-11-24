@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+body {
+  font-family: "Nunito";
+}
+
+#logo {
+  justify-content: left;
+  align-items: center;
+  padding: 1.5rem;
+  color: #3da35d;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#navigation-menu ul {
+  text-align: center;
+  margin-top: -4.9rem;
+}
+
+#navigation-menu {
+  background-color: #e8fccf;
+}
+
+#navigation-menu ul li {
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#navigation-menu ul li:hover {
+  color: #3da35d;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#login-button {
+  background-color: #3da35d;
+  padding: 0.8rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19.5rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+#login-button:hover {
+  background-color: #96e072;
+}
+
+/* mai-image and user section */
+
+#main-image {
+  display: flex;
+  margin-left: 40rem; 
+  position: absolute; 
+  margin-top: 1.5rem;
+} 
+
+main h2  {
+  position: absolute;
+  word-wrap: break-word;
+  font-size: 1.9rem;
+  margin-top: 7.0rem;
+  word-wrap: break-word; 
+  width: 35rem;
+  padding-left: 1.5rem;
+}
+
+main p  {
+  position: absolute;
+  word-wrap: break-word;
+  width: 37rem;
+  margin-top: 15.0rem;
+  padding-left: 1.5rem;
+}
+
+main button {
+  position: absolute;
+  background-color: #3da35d;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 22.0rem;
+  margin-left: 2.0rem; 
+  cursor: pointer;
+}
+
+.app-notifications {
+  position: absolute;
+  margin-top: 38.0rem;
+}
+
+#second-section h2 {
+  margin-top: 42.0rem;
+  margin-left: 48.0rem; 
+}
+
+#second-section p {
+  margin-top: 50.0rem;
+  margin-left: 47.5rem; 
+}
+
+footer {
+  background-color: #212529;
+  margin-top: 80.0rem;
+  height: 10.0rem;
+}
+
+footer address {
+  color: white; 
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+
+
